@@ -27,25 +27,9 @@
 
 <br>
 
-<table align="center" width="850" style="border: none;">
-  <tr style="border: none;">
-    <td width="50%" align="center" valign="top">
-      <h3>🚀 Current Focus</h3>
-      <p align="left">
-        <ul>
-          <li>Building <b><a href="https://github.com/Zeeshan00090/Manas">Manas</a></b>: A continuous-time cognitive engine.</li>
-          <li>Researching <b>Semantic State Evolution (SSE)</b>.</li>
-          <li>Developing non-linear <b>ZULIC Math</b> for AI.</li>
-          <li>Replacing Next-Token Prediction with reasoning.</li>
-        </ul>
-      </p>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <h3>🛠️ Tech Stack</h3>
-      <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,c,cpp,git,docker,linux,aws,gcp&theme=dark&perline=5" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/focus_stack.svg" width="850" alt="Current Focus and Tech Stack" />
+</div>
 
 <br>
 
