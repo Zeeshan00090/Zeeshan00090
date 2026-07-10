@@ -172,6 +172,14 @@ The code I write is pushed constantly. AGI requires relentless iteration.
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zeeshan00090&theme=dracula&hide_border=true&background=0f172a&ring=00FF9C&currStreakLabel=00FF9C" alt="GitHub Streak" />
 </div>
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zeeshan00090/Zeeshan00090/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zeeshan00090/Zeeshan00090/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Zeeshan00090/Zeeshan00090/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
 <br>
 
 <div align="center">
