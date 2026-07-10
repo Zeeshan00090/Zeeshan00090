@@ -4,13 +4,11 @@ import os
 
 os.makedirs('/Users/zeeshanrahman/Zeeshan00090/assets', exist_ok=True)
 
-try:
-    req = urllib.request.Request("https://github.com/Zeeshan00090.png", headers={'User-Agent': 'Mozilla/5.0'})
-    with urllib.request.urlopen(req) as response:
-        b64 = base64.b64encode(response.read()).decode('utf-8')
-    img_href = f"data:image/png;base64,{b64}"
-except Exception:
-    img_href = "https://github.com/Zeeshan00090.png"
+import os
+
+os.makedirs('/Users/zeeshanrahman/Zeeshan00090/assets', exist_ok=True)
+
+img_href = "https://github.com/Zeeshan00090.png"
 
 header_svg = f"""<svg width="850" height="280" viewBox="0 0 850 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
