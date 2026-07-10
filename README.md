@@ -160,10 +160,10 @@ The code I write is pushed constantly. AGI requires relentless iteration.
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=Zeeshan00090&theme=dracula&show_icons=true&hide_border=true&count_private=true&bg_color=0f172a&title_color=00FF9C" alt="GitHub Stats" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Zeeshan00090&theme=dracula&show_icons=true&hide_border=true&count_private=true&bg_color=0f172a&title_color=00FF9C" alt="GitHub Stats" />
     </td>
     <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zeeshan00090&theme=dracula&layout=compact&hide_border=true&bg_color=0f172a&title_color=00FF9C" alt="Top Languages" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Zeeshan00090&theme=dracula&layout=compact&hide_border=true&bg_color=0f172a&title_color=00FF9C" alt="Top Languages" />
     </td>
   </tr>
 </table>
@@ -171,16 +171,6 @@ The code I write is pushed constantly. AGI requires relentless iteration.
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zeeshan00090&theme=dracula&hide_border=true&background=0f172a&ring=00FF9C&currStreakLabel=00FF9C" alt="GitHub Streak" />
 </div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zeeshan00090/Zeeshan00090/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zeeshan00090/Zeeshan00090/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Zeeshan00090/Zeeshan00090/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
-<br>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Zeeshan00090&label=Researchers%20Visited&color=00FF9C&style=for-the-badge" />
