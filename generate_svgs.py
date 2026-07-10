@@ -4,11 +4,20 @@ import os
 
 os.makedirs('/Users/zeeshanrahman/Zeeshan00090/assets', exist_ok=True)
 
+import urllib.request
+import base64
 import os
 
 os.makedirs('/Users/zeeshanrahman/Zeeshan00090/assets', exist_ok=True)
 
-img_href = "https://github.com/Zeeshan00090.png"
+try:
+    url = "https://avatars.githubusercontent.com/Zeeshan00090?size=400"
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    with urllib.request.urlopen(req) as response:
+        b64 = base64.b64encode(response.read()).decode('utf-8')
+    img_href = f"data:image/png;base64,{b64}"
+except Exception:
+    img_href = ""
 
 header_svg = f"""<svg width="850" height="280" viewBox="0 0 850 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -58,7 +67,7 @@ header_svg = f"""<svg width="850" height="280" viewBox="0 0 850 280" xmlns="http
   <text x="270" y="140" font-family="Arial, sans-serif" font-size="16" fill="#00FF9C" font-weight="700" letter-spacing="3">STUDENT | AGI RESEARCHER | AI ENGINEER</text>
   
   <text x="270" y="185" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1">Building the Future of Artificial General Intelligence.</text>
-  <text x="270" y="215" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1">Pioneering Semantic State Evolution &amp; ZULIC Mathematics.</text>
+  <text x="270" y="215" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1">Pioneering Semantic State Evolution &amp; Continuous-Time Reasoning.</text>
 </svg>
 """
 
@@ -92,7 +101,7 @@ vision_svg = f"""<svg width="850" height="250" viewBox="0 0 850 250" xmlns="http
   <text x="60" y="125" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" font-weight="bold">Transformers predict. Manas thinks.</text>
   
   <text x="60" y="165" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1">Scaling Next-Token Prediction is a dead end for true intelligence.</text>
-  <text x="60" y="195" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1">Engineering Navier-Stokes fluid dynamics &amp; non-linear ZULIC math.</text>
+  <text x="60" y="195" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1">Engineering Cognitive Fluid Dynamics &amp; Continuous-Time Reasoning.</text>
 </svg>
 """
 
